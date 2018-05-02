@@ -1,0 +1,11 @@
+Executing fixed runner now.
+Test being executed: org.apache.ambari.server.audit.request.creator.ViewPrivilegeEventCreatorTest.putTest
+Test being executed: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsAdministrator
+Test being executed: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsClusterAdministrator
+Test being executed: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsClusterOperator
+Test being executed: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsClusterUser
+Total execution time: 2136501203
+
+Pass: 1, Fail: 0, Error: 4, Skipped: 0
+{org.apache.ambari.server.audit.request.creator.ViewPrivilegeEventCreatorTest.putTest=PASS, org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsAdministrator=ERROR, org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsClusterAdministrator=ERROR, org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsClusterOperator=ERROR, org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsClusterUser=ERROR}
+

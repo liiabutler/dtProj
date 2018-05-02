@@ -1,0 +1,5 @@
+org.apache.ambari.server.audit.request.creator.ViewPrivilegeEventCreatorTest.putTest
+org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsAdministrator
+org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsClusterAdministrator
+org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsClusterOperator
+org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsClusterUser

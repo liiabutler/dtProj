@@ -1,0 +1,2589 @@
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsClusterUser
+
+Observations ran all together:
+	- Error 13ms
+	- java.lang.NullPointerException
+	- org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testGetResourcesAsClusterAdministrator
+
+Observations ran all together:
+	- Error 1ms
+	- java.lang.NullPointerException
+	- org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testDeleteResourcesBadComponentState
+
+Observations ran all together:
+	- Error 5ms
+	- java.lang.NullPointerException
+	- org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.AmbariPrivilegeResourceProviderTest.testGetResource_Administrator_Other
+
+Observations ran all together:
+	- Error 33ms
+	- java.lang.NullPointerException
+	- at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testGetRecoveryReportAsServiceAdministrator
+
+Observations ran all together:
+	-Error 435ms
+	- java.lang.NullPointerException
+	- at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+		- Bunch of AssistedInject warnings...
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.metric.system.impl.MetricsSourceTest.testJvmSourceInit_JVM1_8
+
+Observations ran all together:
+	- Error 1ms
+	- java.lang.IllegalArgumentException: A metric named jvm.gc.Copy.count already exists
+	- at com.codahale.metrics.MetricRegistry.register(MetricRegistry.java:91)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ViewURLResourceProviderTest.testCreateResources_existingUrl
+
+Observations ran all together:
+	-Error 16ms
+	- java.lang.Exception: Unexpected exception, expected<org.apache.ambari.server.controller.spi.SystemException> but was<java.lang.NullPointerException>
+	- at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.SecurityHelperImplTest.testSecurityHelperWithUnknownPrincipal
+
+Observations ran all together:
+	- failed 13ms
+	org.junit.ComparisonFailure:
+	Expected :
+	user from principal
+	Actual :
+	testuser
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithPredicateAndDirectivesAsServiceOperator
+
+Observations ran all together:
+	-error 42 ms
+	-java.lang.NullPointerException
+	-at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testUpdateResourcesAsServiceAdministrator
+
+Observations ran all together:
+	-error 323ms
+	java.lang.Exception: Unexpected exception, expected<org.apache.ambari.server.security.authorization.AuthorizationException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+	- bunch of warnings with AssistedInject again
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ActiveWidgetLayoutResourceProviderTest.testGetResources_Administrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ActiveWidgetLayoutResourceProviderTest.testUpdateResources_NonAdministrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testDeleteResourcesAsClusterAdministrator
+
+Observations ran all together:
+	-error 445ms
+	- java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallWithNullTailLogURIReturnedAsClusterUser
+
+Observations ran all together:
+	-error 1ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+		-infos
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testUpdateResourcesResourceNotFoundAsClusterAdministrator
+
+Observations ran all together:
+	- error 275ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+		-infos
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testCreateResources_NotInitialized
+
+Observations ran all together:
+	-error 19ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+		-infos
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authorization.AmbariAuthorizationProviderDisableUserTest.testDisabledUserViaLdapProvider
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion: NO LONGER LISTED
+
+Test: org.apache.ambari.server.controller.internal.ViewInstanceResourceProviderTest.testUpdateResources_viewNotLoaded
+
+Observations ran all together:
+	- error 2ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.AmbariManagementControllerImplTest.testUpdateClustersToggleKerberosDisable_Default
+
+Observations ran all together:
+- error 27ms
+java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+	- infos
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesAsServiceAdministrator
+
+Observations ran all together:
+	- error 26ms
+	(reading password from existing file???)
+	java.lang.NullPointerException
+	at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testDeleteResource_Administrator_Self
+
+Observations ran all together:
+	Being called from other places? calling the nullptr from reading
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.AmbariPrivilegeResourceProviderTest.testUpdateResources_NonAdministrator_Self
+
+Observations ran all together:
+	- error 30ms
+	java.lang.Exception: Unexpected exception, expected<org.apache.ambari.server.security.authorization.AuthorizationException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testUpdateResourcesResourceNotFoundAsAdministrator
+
+Observations ran all together:
+	- error 272ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testDeleteResourcesAsClusterAdministrator
+
+Observations ran all together:
+	- error 1ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testCreateResourcesAsServiceAdministrator
+
+Observations ran all together:
+	- error 7.10ms
+	java.lang.Exception: Unexpected exception, expected<org.apache.ambari.server.security.authorization.AuthorizationException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+
+		-warnings with AssistedInject factory
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithPredicateAsServiceAdministrator
+
+Observations ran all together:
+	- error 2ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.AmbariPrivilegeResourceProviderTest.testUpdateResources_Administrator_Self
+
+Observations ran all together:
+	- error 74ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallWithNullTailLogURIReturnedAsServiceOperator
+
+Observations ran all together:
+	- error 52ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ActiveWidgetLayoutResourceProviderTest.testUpdateResources_Administrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testDeleteResourcesWithStartedHostComponentState
+
+Observations ran all together:
+	-error 1ms
+	java.lang.Exception: Unexpected exception, expected<org.apache.ambari.server.controller.spi.SystemException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithoutPredicateAsServiceAdministrator
+
+Observations ran all together:
+	-error 10ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testGetResourcesWithPredicateAsServiceAdministrator
+
+Observations ran all together:
+	-error 268ms
+	java.lang.Exception: Unexpected exception, expected<org.apache.ambari.server.security.authorization.AuthorizationException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.AmbariManagementControllerImplTest.testGetClusters___ClusterNotFoundException
+
+Observations ran all together:
+	-error 2ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testSuccessDeleteResourcesAsAdministrator
+
+Observations ran all together:
+	-error 19ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ActiveWidgetLayoutResourceProviderTest.testUpdateResources_NonAdministrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testDeleteResourcesAsAdministrator
+
+Observations ran all together:
+	-error 416ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.metric.system.impl.MetricsServiceTest.testMetricsServiceStart
+
+Observations ran all together:
+	- passed 263ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testCheckWhenLogSearchNotAvailableAsServiceAdministrator
+
+Observations ran all together:
+	-error 1ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesAsClusterOperator
+
+Observations ran all together:
+	-error 1ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.GroupResourceProviderTest.testUpdateResources_ClusterAdminstrator
+
+Observations ran all together:
+	-error 1ms
+	java.lang.Exception: Unexpected exception, expected<org.apache.ambari.server.security.authorization.AuthorizationException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithPredicateAsClusterAdministrator
+
+Observations ran all together:
+	-error 25ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authorization.AmbariUserAuthenticationFilterTest.testDoFilterValid
+
+Observations ran all together:
+	-pass 0ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testGetRecoveryReportAsAdministrator
+
+Observations ran all together:
+	- error 548ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+	- AssistedInject warnings
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testGetResources_Status_Healthy
+
+Observations ran all together:
+- error 398ms
+java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+- AssistedInject warnings
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testUpdateResourcesAsAdministrator
+
+Observations ran all together:
+-error 316ms
+java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+-infos
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsClusterOperator
+
+Observations ran all together:
+-error 6ms
+java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithPredicateAsAdministrator
+
+Observations ran all together:
+-error 8ms
+java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testUpdateDesiredConfigAsAdministrator
+
+Observations ran all together:
+-error 1.25s
+java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithInvalidKerberosDescriptorTypeAsAdministrator
+
+Observations ran all together:
+-error 32ms
+java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testGetResourcesWithPredicateAsClusterAdministrator
+
+Observations ran all together:
+-error 255ms
+java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+-infos
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.AmbariPrivilegeResourceProviderTest.testUpdateResources_Administrator_Other
+
+Observations ran all together:
+-error 3ms
+java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ViewInstanceResourceProviderTest.testDeleteResourcesAsAdministrator
+
+Observations ran all together:
+-error 1ms
+java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testGetResources_KerberosSpecificProperties_KDCInvalidCredentials
+
+Observations ran all together:
+-error 28ms
+java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.AmbariManagementControllerImplTest.testUpdateClustersToggleKerberosReenable
+
+Observations ran all together:
+-error 29ms
+java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testDeleteResourcesStoppedHostComponentState
+
+Observations ran all together:
+-error 14ms
+java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testUpdateResources_SetAdmin_Administrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion: TEST NO LONGER EXISTS
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithPredicateAndDirectivesAsServiceAdministrator
+
+Observations ran all together:
+	-error 8ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testGetResources_KerberosSpecificProperties_KDCMissingCredentials
+
+Observations ran all together:
+	-error 2ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testGetResources_KerberosSpecificProperties
+
+Observations ran all together:
+	-error 6ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesAsServiceOperator
+
+Observations ran all together:
+	-error 1ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testUpdateResourcesAsClusterAdministrator
+
+Observations ran all together:
+	-error 420ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+	-infos
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authorization.AuthorizationHelperTest.testIsAuthorizedForSpecificView
+
+Observations ran all together:
+	-pass 0ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testCreateResourcesAsClusterAdministrator
+
+Observations ran all together:
+	-error 639ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithoutPredicateAsClusterUser
+
+Observations ran all together:
+	-error 10ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ViewURLResourceProviderTest.testUpdateResources
+
+Observations ran all together:
+	-error 52ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testDeleteResourcesAsServiceAdministrator
+
+Observations ran all together:
+	-error 335ms
+	java.lang.Exception: Unexpected exception, expected<org.apache.ambari.server.security.authorization.AuthorizationException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testUpdateResources_SetActive_NonAdministrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion: NO LONGER A TEST
+
+Test: org.apache.ambari.server.security.authorization.AuthorizationHelperTest.testIsAuthorized
+
+Observations ran all together:
+	-passed 50ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithInvalidKerberosDescriptorTypeAsServiceAdministrator
+
+Observations ran all together:
+	-error 24ms
+	java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+(has the same caused by as the others)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testCheckWhenLogSearchNotAvailableAsClusterUser
+
+Observations ran all together:
+	-error 0ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.api.services.LoggingServiceTest.testGetSearchEngineWhenLogSearchNotRunningAsServiceOperator
+
+Observations ran all together:
+	-Pass
+	-0ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testGetResourcesWithoutPredicateAsClusterAdministrator
+
+Observations ran all together:
+	-error 381ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserAuthorizationResourceProviderTest.testGetResources_NonAdministrator_Self
+
+Observations ran all together:
+	-error 9.34ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsAdministrator
+
+Observations ran all together:
+	-error 99ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.AmbariPrivilegeResourceProviderTest.testGetResources_NonAdministrator
+
+Observations ran all together:
+	-error 37ms
+	java.lang.Exception: Unexpected exception, expected<org.apache.ambari.server.security.authorization.AuthorizationException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.AmbariPrivilegeResourceProviderTest.testCreateResources_Administrator
+
+Observations ran all together:
+	-error 25ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testGetResourcesAsAdministrator
+
+Observations ran all together:
+	-error 25ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.LdapSyncEventResourceProviderTest.testDeleteResources
+
+Observations ran all together:
+	-error 33ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testUpdateResourcesAsAdministrator
+
+Observations ran all together:
+	-error 17ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testUpdateResources_SetAdmin_Administrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion: NO LONGER ON THERE
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testUpdateResources_SetPassword_NonAdministrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion: NO LONGER ON THERE
+
+Test: org.apache.ambari.server.controller.internal.ClusterPrivilegeResourceProviderTest.testGetResource_Administrator_Self
+
+Observations ran all together:
+	-error 22ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.api.services.PersistenceManagerImplTest.testPersistenceManagerImplAsClusterAdministrator
+	Observations ran all together:
+		-Pass
+		-41 ms
+	Observations ran in dependent test order:
+
+	Conclusion:
+
+Test: org.apache.ambari.server.controller.AmbariManagementControllerImplTest.testUpdateClustersToggleKerberos_Fail
+
+Observations ran all together:
+	-error 42ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.view.ViewRegistryTest.testIncludeDefinitionForUserNoInstances
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.SecurityHelperImplTest.testSecurityHelperWithUser
+
+Observations ran all together:
+	-failed 9ms
+	org.junit.ComparisonFailure:
+Expected :
+username
+Actual :
+testuser
+
+at org.junit.Assert.assertEquals(Assert.java:125)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testUpdateResourcesAsClusterAdministrator
+
+Observations ran all together:
+	-error 306ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authorization.AmbariUserAuthenticationFilterTest.testDoFilterWithInvalidUserID
+
+Observations ran all together:
+	-passed 1ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithoutPredicateAsClusterAdministrator
+
+Observations ran all together:
+	-error 12ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testGetResources_Status_Unhealthy
+
+Observations ran all together:
+	-error 407ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.MemberResourceProviderTest.testUpdateResources_ClusterAdministrator
+
+Observations ran all together:
+	-1ms
+	java.lang.Exception: Unexpected exception, expected<org.apache.ambari.server.security.authorization.AuthorizationException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.GroupResourceProviderTest.testDeleteResources_ClusterAdministrator
+
+Observations ran all together:
+	-error 6ms
+	java.lang.Exception: Unexpected exception, expected<org.apache.ambari.server.security.authorization.AuthorizationException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.AmbariPrivilegeResourceProviderTest.testDeleteResources_Administrator
+
+Observations ran all together:
+	-error 37ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testGetResources_Status_NoCluster
+
+Observations ran all together:
+	-error 364ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.api.services.LoggingServiceTest.testGetSearchEngineWhenLogSearchNotRunningAsClusterAdministrator
+
+Observations ran all together:
+	-Pass
+	-14ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ViewInstanceResourceProviderTest.testCreateResourcesAsClusterAdministrator
+
+Observations ran all together:
+	-error 0ms
+	ava.lang.Exception: Unexpected exception, expected<org.apache.ambari.server.security.authorization.AuthorizationException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.AmbariManagementControllerImplTest.testUpdateClusters__RollbackException
+
+Observations ran all together:
+	-error 19ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authorization.AmbariUserAuthenticationFilterTest.testDoFilterWithIncorrectUser
+
+Observations ran all together:
+	-pass 5ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testUpdateResourcesResourceNotFoundAsServiceAdministrator
+
+Observations ran all together:
+	-error 248ms
+	java.lang.Exception: Unexpected exception, expected<org.apache.ambari.server.security.authorization.AuthorizationException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesAsClusterAdministrator
+
+Observations ran all together:
+	-error 24ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.api.services.LoggingServiceTest.testGetSearchEngineWhenLogSearchNotRunningAsAdministrator
+
+Observations ran all together:
+	-Pass
+	-54 ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostComponentResourceProviderTest.testUpdateResourcesAsServiceAdministrator
+
+Observations ran all together:
+	-error 16ms
+	java.lang.RuntimeException: Update Host request submission failed: java.lang.NullPointerException
+at org.apache.ambari.server.controller.internal.HostComponentResourceProvider$4.invoke(HostComponentResourceProvider.java:852)
+
+	-lots of infos
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testDeleteResourcesAsServiceAdministrator
+
+Observations ran all together:
+	-error 0ms
+	java.lang.Exception: Unexpected exception, expected<org.apache.ambari.server.security.authorization.AuthorizationException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testCreateResources_FailMissingPrincipal
+
+Observations ran all together:
+	-error 285ms
+	java.lang.NullPointerException
+at org.apache.ambari.server.security.authorization.AuthorizationHelper.isAuthorized(AuthorizationHelper.java:192)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authorization.AmbariUserAuthenticationFilterTest.testDoFilterWithoutUserToken
+
+Observations ran all together:
+	-pass 0ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testDeleteResourcesAsServiceAdministrator
+
+Observations ran all together:
+	-error 271ms
+	java.lang.Exception: Unexpected exception, expected<org.apache.ambari.server.security.authorization.AuthorizationException> but was<java.lang.NullPointerException>
+at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:31)
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterPrivilegeResourceProviderTest.testDeleteResources_Administrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testDeleteResourcesAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testUpdateResources_SetActive_NonAdministrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.LdapSyncEventResourceProviderTest.testCreateResources
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testGetResources_Administrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterPrivilegeResourceProviderTest.testGetResources_Administrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.api.services.PersistenceManagerImplTest.testPersistenceManagerImplAsClusterUser
+
+Observations ran all together:
+	-Pass
+	-0 ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterPrivilegeResourceProviderTest.testGetResource_Administrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testGetResourcesAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testGetResourcesAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.AmbariManagementControllerImplTest.testGetClusters___OR_Predicate_ClusterNotFoundException
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ActiveWidgetLayoutResourceProviderTest.testGetResources_NonAdministrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterPrivilegeResourceProviderTest.testGetResource_NonAdministrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testGetResourcesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testCheckWhenLogSearchNotAvailableAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterPrivilegeResourceProviderTest.testGetResources_NonAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ViewInstanceResourceProviderTest.testDeleteResourcesAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testCheckWhenLogSearchNotAvailableAsServiceOperator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testGetResource_Administrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.AmbariPrivilegeResourceProviderTest.testGetResource_NonAdministrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testUpdateResourcesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterPrivilegeResourceProviderTest.testCreateResources_Administrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.MemberResourceProviderTest.testDeleteResources_ClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserAuthorizationResourceProviderTest.testGetResources_NonAdministrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testCreateResourcesAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testCheckWhenLogSearchNotAvailableAsClusterOperator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.AmbariManagementControllerImplTest.testUpdateClustersToggleKerberosDisable_NoManageIdentities
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testUpdateResourcesAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithoutPredicateAsServiceOperator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallWithNullTailLogURIReturnedAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testUpdateAutoStartAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterPrivilegeResourceProviderTest.testCreateResources_NonAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesAsClusterUser
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testGetResourcesWithoutPredicateAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testReconfigureClientsFlagAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testDeleteResourcesBadServiceState
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testGetResourcesAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testGetResourcesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostComponentResourceProviderTest.testUpdateResourcesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testGetResource_NonAdministrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.AmbariPrivilegeResourceProviderTest.testGetResource_Administrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.api.services.LoggingServiceTest.testGetSearchEngineWhenLogSearchNotRunningAsClusterOperator
+
+Observations ran all together:
+	-Pass
+	-7ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testGetResourcesWithPredicateAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.view.ViewRegistryTest.testIncludeDefinitionForAdmin
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.MemberResourceProviderTest.testCreateResources_ClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ViewInstanceResourceProviderTest.testCreateResources_viewNotLoaded
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.api.services.LoggingServiceTest.testGetSearchEngineWhenLogSearchNotRunningAsServiceAdministrator
+
+Observations ran all together:
+	-Pass
+	-17ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ActiveWidgetLayoutResourceProviderTest.testGetResources_NonAdministrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testUpdateResources_SetPassword_NonAdministrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testSuccessDeleteResourcesAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testGetResource_Administrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.AmbariPrivilegeResourceProviderTest.testGetResources_allTypes
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authorization.AuthorizationHelperTest.testAuthId
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testDeleteResourcesWithEmptyClusterComponentNamesAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ViewPrivilegeResourceProviderTest.testGetResources
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authorization.jwt.JwtAuthenticationFilterTest.testShouldApplyTrueBadToken
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testCreateResourcesAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.AmbariPrivilegeResourceProviderTest.testCreateResources_NonAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authorization.AuthorizationHelperTest.testLoginAliasAuthName
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.api.services.PersistenceManagerImplTest.testPersistenceManagerImplAsServiceAdministrator
+
+Observations ran all together:
+	-Pass
+	-12 ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testGetResourcesWithPredicateNoResultsAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testUpdateResources_SetPassword_Administrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testUpdateResourcesAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.GroupPrivilegeResourceProviderTest.testGetResources_NonAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.AmbariPrivilegeResourceProviderTest.testGetResources_Administrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserPrivilegeResourceProviderTest.testToResource_SpecificVIEW_WithClusterInheritedPermission
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testGetResources_Status_Alert
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testCreateWithNoRepositoryIdAndPatch
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsServiceOperator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testCreateResourcesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ConfigurationResourceProviderTest.testGetResources
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterPrivilegeResourceProviderTest.testGetResource_NonAdministrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testUpdateResources_SetAdmin_NonAdministrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserPrivilegeResourceProviderTest.testGetResources_NonAdministrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testUpdateDesiredConfigAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testCreateResourcesAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testGetResourcesWithoutPredicateAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testUpdateResourcesAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testCreateResourcesAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testDeleteResourcesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ViewURLResourceProviderTest.testDeleteResources
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.AmbariPrivilegeResourceProviderTest.testUpdateResources_NonAdministrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testUpdateResourcesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithPredicateAndDirectivesAsClusterUser
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.api.services.LoggingServiceTest.testGetSearchEngineWhenLogSearchNotRunningAsClusterUser
+
+Observations ran all together:
+	-Pass
+	-0 ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testGetResourcesAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testCheckWhenLogSearchNotAvailableAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallWithNullTailLogURIReturnedAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testGetResources_Status_Unknown
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testUpdateAutoStartAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostComponentResourceProviderTest.testUpdateResourcesAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserAuthorizationResourceProviderTest.testGetResources_Administrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testGetResourcesAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithoutPredicateAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.AmbariManagementControllerImplTest.testUpdateClustersToggleKerberosEnable
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authorization.AmbariUserAuthenticationFilterTest.testDoFilterWithoutInternalToken
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostComponentResourceProviderTest.testDeleteResourcesAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.AmbariManagementControllerImplTest.testUpdateClusters
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testDeleteResource_NonAdministrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.view.ViewRegistryTest.testIncludeDefinitionForUserHasAccess
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.RemoteClusterResourceProviderTest.testCreateResourcesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserPrivilegeResourceProviderTest.testGetResources_NonAdministrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.AmbariManagementControllerImplTest.testUpdateClustersToggleKerberosNotInvoked
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.GroupPrivilegeResourceProviderTest.testGetResources_Administrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallWithNullTailLogURIReturnedAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authentication.AmbariJWTAuthenticationFilterTest.testDoFilterFailure
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testCreateResourcesAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authentication.AmbariBasicAuthenticationFilterTest.testDoFilter
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testDeleteResourcesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testDeleteResourcesWithEmptyClusterComponentNamesAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testGetResources_KerberosSpecificProperties_NoKDCValidation
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testCreateResourcesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testCreateResourcesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authentication.AmbariJWTAuthenticationFilterTest.testDoFilterSuccess
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.GroupResourceProviderTest.testCreateResources_ClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testReconfigureClientsFlagAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authorization.AuthorizationHelperTest.testAuthName
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testUpdateDesiredConfigAsServiceOperator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.RemoteClusterResourceProviderTest.testDeleteResources
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testUpdateAutoStartAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testGetResources_NonAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostComponentResourceProviderTest.testCreateResourcesAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.AmbariManagementControllerImplTest.testUpdateClustersToggleKerberosDisable_ManageIdentities
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterPrivilegeResourceProviderTest.testDeleteResources_NonAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testUpdateResources_SetActive_Administrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testReconfigureClientsFlagAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testDeleteResource_Administrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.api.services.PersistenceManagerImplTest.testPersistenceManagerImplAsServiceOperator
+
+Observations ran all together:
+	-Pass
+	-7ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.MemberResourceProviderTest.testGetResources_ClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithPredicateAndDirectivesAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ViewInstanceResourceProviderTest.testCreateResources_existingInstance
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testDeleteResourcesWithEmptyClusterComponentNamesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ViewURLResourceProviderTest.testCreateResourcesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.logging.LoggingSearchPropertyProviderTest.testBasicCallWithNullTailLogURIReturnedAsClusterOperator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testCreateResources_Administrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.AmbariPrivilegeResourceProviderTest.testGetResource_NonAdministrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.api.services.PersistenceManagerImplTest.testPersistenceManagerImplAsViewUser
+
+Observations ran all together:
+	-Pass
+	-0 ms
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterPrivilegeResourceProviderTest.testUpdateResources_NonAdministrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testUpdateResources_SetActive_Administrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testUpdateResourcesAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authorization.jwt.JwtAuthenticationFilterTest.testShouldApplyTrue
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithInvalidKerberosDescriptorTypeAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testDeleteResourcesAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithPredicateAsClusterOperator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testUpdateAutoStartAsClusterUser
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testUpdateResources_SetPassword_Administrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithPredicateAsServiceOperator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testCreateResources_FailMissingAlias
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithPredicateAndDirectivesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testDeleteResource_NonAdministrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.GroupResourceProviderTest.testGetResources_ClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ViewInstanceResourceProviderTest.testCreateResourcesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testCreateResourcesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authentication.kerberos.AmbariAuthToLocalUserDetailsServiceTest.loadUserByUsernameSuccess
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.SecurityHelperImplTest.testSecurityHelperWithUserDetails
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testGetRecoveryReportAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.security.authorization.AmbariAuthorizationFilterTest.testDoFilter_NotLoggedIn_UseDefaultUser
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithPredicateAndDirectivesAsClusterOperator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithPredicateAsClusterUser
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.HostResourceProviderTest.testUpdateDesiredConfigAsServiceAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testGetResource_NonAdministrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testGetResourcesWithPredicateNoResultsAsAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ComponentResourceProviderTest.testUpdateResourcesAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.CredentialResourceProviderTest.testGetResourcesWithPredicateNoResultsAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserPrivilegeResourceProviderTest.testGetResources_Administrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterPrivilegeResourceProviderTest.testUpdateResources_Administrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterPrivilegeResourceProviderTest.testUpdateResources_NonAdministrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.LdapSyncEventResourceProviderTest.testGetResources
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterKerberosDescriptorResourceProviderTest.testGetResourcesWithoutPredicateAsClusterOperator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ClusterPrivilegeResourceProviderTest.testUpdateResources_Administrator_Other
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testCreateResources_NonAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testCreateResourcesAsClusterAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testCreateWithNoRepositoryId
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.ServiceResourceProviderTest.testCreateWithNoRepositoryIdAndMultiBase
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.AmbariPrivilegeResourceProviderTest.testDeleteResources_NonAdministrator
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:
+
+Test: org.apache.ambari.server.controller.internal.UserResourceProviderTest.testUpdateResources_SetAdmin_NonAdministrator_Self
+
+Observations ran all together:
+
+Observations ran in dependent test order:
+
+Conclusion:

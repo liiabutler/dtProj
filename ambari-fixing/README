@@ -1,0 +1,20 @@
+Fixing dependent tests in Ambari:
+
+- All of these dependent tests are in the ambari-server module.
+
+- Files in this directory:
+    - The list of dependent tests in is dt-list.txt
+    - The orders used to reveal these dependent tests are in the orders/ directory, each order has the name of the dependent test that should be revealed by that order.
+    - ambari-results-new/ contains the full test orders run and all of the dependent tests revealed in each order.
+    
+- Finding dependencies:
+    - The orders in the order/ directory are the "new" orders -- they should reveal the dependent test, but not all the tests in the order will likely be necessary to reveal the dependent test.
+    - To determine the actual dependencies of the dependent test:
+    - Run the dependent test by itself, if it has the same result as the original order, then the dependency is one of the tests in the new order (i.e., the order in the orders/ directory).
+    - If it has a different result, then it may be that tests from the original order need to come before the dependent test AND tests in the new order need to come after.
+    
+- Running tests in a specific order (with our tools):
+    - You will need the impact-tools/ directory, this is in our main repository (https://github.com/winglam/dependent-tests-impact/tree/master/experiments/impact-tools)
+    - Assuming you are in the target directory of the module, and there is a newline-separated list of fully qualified names of tests in some file, you can run:
+    
+    java -cp impact-tools/*:classes/:test-classes/:dependency/*: edu.washington.cs.dt.main.ImpactMain -inputTests <ORDER-FILE>
